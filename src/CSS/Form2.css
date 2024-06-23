@@ -1,0 +1,83 @@
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-family: Arial, sans-serif;
+     
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="number"],
+  .form-group select,
+  .form-group textarea,
+  .form-group .checkbox-group {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .form-group textarea {
+    height: 80px; 
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .error {
+    border: 1px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: white;
+    color:black;
+  }
+  
+  
+  .summary {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .summary p {
+    margin: 5px 0;
+  }
+  
